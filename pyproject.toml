@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragpipe"
+version = "0.1.0"
+description = "ragpipe: unified RAG ingestion pipeline (loaders, chunking, embeddings, vector store export)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="Kubenew"}]
+keywords = ["rag", "llm", "embedding", "vector", "faiss", "pipeline", "ai"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "numpy>=1.23.0",
+  "requests>=2.31.0",
+  "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+faiss = ["faiss-cpu>=1.7.4"]
+dev = ["pytest>=7.0.0", "build>=1.0.0", "twine>=4.0.0"]
+
+[project.scripts]
+ragpipe = "ragpipe.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Kubenew/ragpipe"
+Repository = "https://github.com/Kubenew/ragpipe"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ragpipe*"]
