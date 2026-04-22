@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ragpipe"
+name = "ragpipe-lite"
 version = "0.1.0"
-description = "ragpipe: unified RAG ingestion pipeline (loaders, chunking, embeddings, vector store export)."
+description = "ragpipe-lite: unified RAG ingestion pipeline (loaders, chunking, embeddings, vector store export)."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
