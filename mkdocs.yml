@@ -1,0 +1,20 @@
+site_name: ragpipe-lite
+site_description: Unified RAG ingestion pipeline
+site_url: https://Kubenew.github.io/ragpipe
+repo_name: Kubenew/ragpipe
+repo_url: https://github.com/Kubenew/ragpipe
+
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: light green
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API: api.md
+
+plugins:
+  - search
