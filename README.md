@@ -1,4 +1,9 @@
-# ragpipe
+# ragpipe-lite
+
+[![PyPI Version](https://img.shields.io/pypi/v/ragpipe-lite)](https://pypi.org/project/ragpipe-lite/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/ragpipe-lite)](https://pypi.org/project/ragpipe-lite/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tests](https://github.com/Kubenew/ragpipe/actions/workflows/ci.yml/badge.svg)](https://github.com/Kubenew/ragpipe/actions/workflows/ci.yml)
 
 `ragpipe` is a lightweight RAG ingestion pipeline toolkit.
 
